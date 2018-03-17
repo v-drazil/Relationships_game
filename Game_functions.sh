@@ -44,10 +44,10 @@ while [ $answer1 != 4 ]
 # Answer no.2
 F_Answer2()
 {
-	echo "You will sit down on the bench near the footpath in the park and start reading your favorite book called \"Loving of neighbors and another spiritual fights\". Suddenly some unknown good-looking woman runs around you. What will you do?"
+	echo "You will sit down on the bench near the footpath in the park and start reading your favorite book called \"Loving of neighbors and other spiritual fights\". Suddenly some unknown good-looking woman runs around you. What will you do?"
 	echo
 	echo "1) Nothing. I am not interested in sweating unknown women."
-	echo "2) I will raise my eyebrows and make compassionate look."
+	echo "2) I will raise my eyebrows and make a compassionate look."
 	echo "3) I will stand up and ask boldly whether I can run together with her. I will mix business with pleasure at least."
 	echo "4) End (this is really a stupid game)."
 	echo -n "#> "
@@ -82,10 +82,10 @@ while [ $answer1 != 4 ]
 # Answer no.3
 F_Answer3()
 {
-	echo "You're in the shopping mall and in a bookstore one book caught your eye right away. Its name is \"Algorithm programming of CNC machines and another amusements\". Some lady tries to speak to you and asks for advice. What will you do?"
+	echo "You're in the shopping mall and in a bookstore. One book caught your eye right away. Its name is \"Algorithm programming of CNC machines and other amusements\". Some lady tries to speak to you and asks for advice. What will you do?"
 	echo
 	echo "1) I am willing to give advise and ask her how can I help."
-	echo "2) I will make a disgusted look and expression of my face says apparently \"Why is she hassling me?\""
+	echo "2) I will make a disgusted look and expression on my face says apparently \"Why is she hassling me?\""
 	echo "3) I will smile at her and then start to stutter, spit and redden while I try to answer her question."
 	echo "4) End (this is really a stupid game)."
 	echo -n "#> "
@@ -120,7 +120,7 @@ while [ $answer1 != 4 ]
 # Option no.1 in the answer no.1
 F_Answer1a()
 {
-		echo "The girl listens your conversation with the dosser and she is fascinated by your arguments. She would like to ask something too. How will you react?"
+		echo "The girl listens to your conversation with the dosser and she is fascinated by your arguments. She would like to ask something too. How will you react?"
 		echo
 		echo "1) I will start to jubilate wildly. \"Hooray, finally there is someone who cares here.\""
 		echo "2) I will apologize and tell her I am too busy and run after the dosser who stole my wallet stealthily and tries to decamp."
@@ -171,11 +171,11 @@ F_Result
 # Option no.1 in the answer no.2
 F_Answer2a()
 {
-		echo "As a consequence of your inattention and long legs stretched out unknown woman stumbles and falls to the ground. Her moaning forces you to stand up and act. What will you do?"
+		echo "As a consequence of your inattention and long legs stretched out an unknown woman stumbles and falls to the ground. Her moaning forces you to stand up and act. What will you do?"
 		echo
 		echo "1) I will try to go and get some help but I stumble too and fall directly on the helpless woman."
 		echo "2) I will try to give first aid to the woman immediately by rescue breathing. After a while I find out that the woman only sprained her ankle."
-		echo "3) I will start to read passages from my favorite book called \"Loving of neighbors and another spiritual fights\" to the woman to calm her down."
+		echo "3) I will start to read passages from my favorite book called \"Loving of neighbors and other spiritual fights\" to the woman to calm her down."
 		echo "4) End (this game is really a highest level of stupidity)"
   	echo -n "#> "
  		read -n 1 answer_result
@@ -259,7 +259,7 @@ F_Answer3c()
 		echo "Fortunately you carry a tissue so you immediately give it to the girl to be able to wipe her face. What next?"
 		echo
 		echo "1) Unluckily I didn't notice that my tissue wasn't fully clean but it is too late."
-		echo "2) I try to clean personally everything I spitted before and hope the girl will appreciate my effort."
+		echo "2) I try to clean personally everything I spat before and hope the girl will appreciate my effort."
 		echo "3) First I wet my tissue in the same way as my mother did every morning when she tried to clean my face while we were waiting for the school bus."
 		echo "4) End (this game is really a highest level of stupidity)"
   	echo -n "#> "
