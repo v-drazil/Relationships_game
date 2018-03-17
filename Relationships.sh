@@ -93,20 +93,15 @@ while [ $odpoved != 4 ]
 
 # End of function definicion
 
-echo "For start the game in English please press \"1\", pro spuštění hry v českém jazyce stiskněte prosím klávesu \"2\""
+echo "For start the game in English please press \"1\", pro spuštění hry v českém jazyce stiskněte prosím jakoukoliv klávesu kromě klávesy \"1\""
 echo -n "#> "
 read -n 1 language
+echo
 
 if [ $language = 1 ] ; then
 	F_Game_english
-elif [ $language = 2 ] ; then
-	F_Game_czech
 else
-	echo "Incorrect choice. Try it again. / Nesprávná volba. Zkuste to znovu"
-	echo -n "#> "
-	read -n 1 language
-	echo
-	echo "--------------------------------"
+	F_Game_czech
 fi
 
 
